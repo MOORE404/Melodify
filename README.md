@@ -1,5 +1,4 @@
 # 🎵 Melodify — An Emotive Musical Decision Tree
-![UX Flowchart](Melodify/groupphoto.jpg)
 ## 📌 Project Overview
 Melodify is an application designed to enhance midi instrument practice and improvisation through the
 guidance of a midi-based decision tree. The project aims to transform these activities through ‘guided
@@ -42,27 +41,52 @@ and press the “Play” button to start the game.
 
 <table>
   <tr>
-    <td align="center" colspan="2"><b>Flowchart of User Experience Journey</b></td>
+    <td align="center"><b> Notes falling from the top of screen</b></td>
+    <td align="center"><b> Users choose either of 2 branches</b></td>
   </tr>
   <tr>
     <td>
-      <img src="Melodify/Notes falling.png" width="800" style="object-fit: contain;" />
+      <img src="Melodify/Notes falling.png" width="500" style="object-fit: contain;" />
     </td>
-    <td style="vertical-align: top; padding-left: 20px;">
-      <p>
-        Once the game begins, the notes (dots) are displayed and fall vertically from the top of the screen.
-        A virtual keyboard layout appears at the bottom of the app, representing the user's physical keyboard.
-      </p>
-      <p>
-        As users press keys on their keyboard, the corresponding keys on the virtual keyboard are highlighted,
-        creating an intuitive, responsive interaction. This visual feedback helps users adapt quickly and correct
-        their mistakes in real-time.
-      </p>
+    <td>
+      <img src="Melodify/2 branches.png" width="500" style="object-fit: contain;" />
     </td>
   </tr>
 </table>
 
 </div>
+
+Once the game begins, the notes (dots) are displayed and they fall from the top down vertically. There is a
+virtual keyboard layout at the bottom of the app, which represents the keys on the user’s keyboard. Whenever
+users press any keys on their physical keyboards, the corresponding keys on the virtual keyboard in the app
+will be shaded, giving users an intuitive experience. Therefore, users can adapt quickly and self-correct easily
+when pressing the wrong keys
+
+Sometimes the application displays 2 series of notes (2 branches) with 2 different colours, users need to choose
+a path by pressing a note associated with their preferred branch. The falling notes gradually go down until
+they reach the green bar, right above the virtual keyboard, which indicates the perfect time for users to press
+the corresponding keys.
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><b>User hits the right key</b></td>
+    <td align="center"><b>User hits the wrong key</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Melodify/Keyboard green - Focus.png" width="500" style="object-fit: contain;" />
+    </td>
+    <td>
+      <img src="Melodify/Keyboard red - Focus.png" width="500" style="object-fit: contain;" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
 
 
 
