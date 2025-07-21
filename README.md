@@ -87,6 +87,39 @@ the corresponding keys.
 </div>
 
 
+Whenever the users press the correct keys at the right time, the virtual keyboard turns green to celebrate
+that success, and the score is increased. On the other hand, when they press the wrong keys, or press at the
+wrong time, the virtual keyboard turns red and the health bar (life) is deducted.
+During the game, users can press “P” key to pause the game. On the Pause Menu page, users can access
+the game tutorial by pressing “?” key, and pressing it again to exit the tutorial.
+As the players progress, the game gradually enhances the difficulty level. More notes of the song are
+displayed, which makes the users play quicker, therefore, the piano sound becomes more beautiful and
+complex. As the game progresses, the system plays more well-composed background music tracks. That
+means the longer the players play, the more beautiful music they produce. Therefore, this mechanism makes the game sticky to the players, and the more they practice playing piano, the better they become.
+When users make mistakes, such as pressing the wrong keys or pressing the correct key at the wrong time,
+the health bar is deducted. The game ends when the health bar is empty, and then users go to the “Game
+Over” page. On this page, users can check their rankings by clicking “Leaderboard” button, play again by
+pressing the “Play Again” button or they can stop the game by choosing the “Quit” button.
+After experiencing the game, we want the users to feel playing piano is not as difficult as they thought, it’s
+not boring and time-consuming like what people say. They can play their favourite songs and enjoy
+beautiful rhythms on the first several tries. The feeling our product brings to users is the love of playing the
+piano. Therefore, they want to use Melodify to practice the skill and see it as a trusty tool to guide them in
+learning piano.
+
+## How To Play – Summary Of User Experience Flow
+
+1. **Connect the Keyboard**: Plug your keyboard into the computer using a USB or MIDI cable.  
+2. **Start the Game**: Press the **“Start”** button in the menu to begin. Choose your favourite song and press **“Play”**.  
+3. **Play Notes**: Press the corresponding keys to the falling notes on the screen using your keyboard.  
+4. **Timing Matters**: Press the correct keys at the right time to turn the virtual keyboard **green**.  
+   - Missed notes or wrong timing will turn the virtual keyboard **red** and reduce your **health bar**.  
+5. **Pause / Help**:  
+   - Press **“P”** to pause the game.  
+   - Press **“?”** to access this tutorial during gameplay.  
+6. **Choose a Path**: When two branches of notes with different colours appear, choose a path by pressing a note in your preferred branch.  
+7. **Game Over**:  
+   - The game ends when your **health bar** is empty.  
+   - You can choose to **play again** or **quit**.
 
 
 
@@ -104,7 +137,6 @@ the corresponding keys.
 - 📈 **Adaptive Learning Curve**: Progressive difficulty keeps learners engaged.
 - 🔊 **Dynamic Audio Layering**: Music evolves as users play — layering backing tracks and melodies.
 
-![Gameplay Screenshot - Note Branching](PLACEHOLDER_BRANCHING_NOTES_IMAGE_URL)
 
 ---
 
