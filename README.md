@@ -191,6 +191,25 @@ Iterative Development and User Feedback: The design process involved group meeti
 - **MIDI Integration:** Leveraged `pygame.midi` for real-time keyboard input and responsive play.
 - **Adaptive Music:** Created 14 musical variations based on a core chord progression to dynamically adapt to user choices.
 
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><b>Prototype 4</b></td>
+    <td align="center"><b>prototype 8</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Melodify/prototype 4.png" width="500" style="object-fit: contain;" />
+    </td>
+    <td>
+      <img src="final.gif" width="500" style="object-fit: contain;" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ---
 
 
