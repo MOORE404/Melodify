@@ -19,16 +19,54 @@ Melodify is designed to provide users with the most realistic and fun experience
 is why it receives inputs from a real keyboard, which is connected to the laptop externally, through a USB or
 MIDI cable. The app supports various kinds of keyboards, ranging from large e-pianos to small MIDI pianos.
 
+<div align="center">
+
 <table>
   <tr>
-    <th>Label for Image 1</th>
-    <th>Label for Image 2</th>
+    <td align="center"><b>Flowchart of User Experience Journey</b></td>
   </tr>
   <tr>
-    <td><img src="URL_or_path_to_image1" alt="Image 1" width="200"></td>
-    <td><img src="URL_or_path_to_image2" alt="Image 2" width="200"></td>
+    <td><img src="Melodify/image.png" style="object-fit: contain;"/></td>
   </tr>
 </table>
+
+</div>
+
+Thanks to the intuitive design of the interface, the user experience is straightforward. After plugging the
+keyboard into a computer, users open Melodify app. The application automatically detects the keyboard and
+connects it. If many keyboards are connected, users can select the desired one on “Setting” page by pressing
+“Settings” button. To begin the learning journey, users press the “Start” button, then choose a song to learn
+and press the “Play” button to start the game.
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" colspan="2"><b>Flowchart of User Experience Journey</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Melodify/Notes falling.png" width="800" style="object-fit: contain;" />
+    </td>
+    <td style="vertical-align: top; padding-left: 20px;">
+      <p>
+        Once the game begins, the notes (dots) are displayed and fall vertically from the top of the screen.
+        A virtual keyboard layout appears at the bottom of the app, representing the user's physical keyboard.
+      </p>
+      <p>
+        As users press keys on their keyboard, the corresponding keys on the virtual keyboard are highlighted,
+        creating an intuitive, responsive interaction. This visual feedback helps users adapt quickly and correct
+        their mistakes in real-time.
+      </p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
 
 
 ---
