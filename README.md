@@ -1,5 +1,5 @@
 # 🎵 Melodify — An Emotive Musical Decision Tree
-
+![UX Flowchart](Melodify/groupphoto.jpg)
 ## 📌 Project Overview
 Melodify is an application designed to enhance midi instrument practice and improvisation through the
 guidance of a midi-based decision tree. The project aims to transform these activities through ‘guided
@@ -15,13 +15,21 @@ Built using **Python, Pygame, and MIDI**, Melodify supports beginner to intermed
 ## 🧭 UX Journey
 
 Melodify was built around **Human-Computer Interaction (HCI)** and **Flow Theory**. Some UX highlights:
+Melodify is designed to provide users with the most realistic and fun experience to learn piano quickly. That
+is why it receives inputs from a real keyboard, which is connected to the laptop externally, through a USB or
+MIDI cable. The app supports various kinds of keyboards, ranging from large e-pianos to small MIDI pianos.
 
-- **Intuitive Onboarding**: Plug in your MIDI keyboard and start with one click.
-- **Responsive Visual Feedback**: Clear red/green cues reinforce performance.
-- **Branching Choices**: Learners engage emotionally with music via branching melodies and real-time consequences.
-- **Aesthetic-Usability**: Clean, appealing UI supports confident exploration.
+<table>
+  <tr>
+    <th>Label for Image 1</th>
+    <th>Label for Image 2</th>
+  </tr>
+  <tr>
+    <td><img src="URL_or_path_to_image1" alt="Image 1" width="200"></td>
+    <td><img src="URL_or_path_to_image2" alt="Image 2" width="200"></td>
+  </tr>
+</table>
 
-![UX Flowchart](PLACEHOLDER_UX_FLOWCHART_IMAGE_URL)
 
 ---
 
