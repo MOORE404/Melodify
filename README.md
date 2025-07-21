@@ -9,6 +9,12 @@ musical development.
 
 Built using **Python, Pygame, and MIDI**, Melodify supports beginner to intermediate players, blending **music theory, gamification, UX principles, and immersive audio** into a dynamic experience.
 
+### Discovery & Conceptualization
+- **Problem:** Traditional music practice can be repetitive and uninspiring, causing many learners to quit.
+- **Core Idea:** Create a "choose your own adventure" style guided improvisation, letting users influence the music as they play.
+- **Target Users:** Beginners wanting an intuitive start and intermediate players seeking creative exploration.
+
+
 ---
 
 ## UX Journey
@@ -164,6 +170,28 @@ Iterative Development and User Feedback: The design process involved group meeti
 </table>
 
 </div>
+
+### Design & Prototyping
+- **Low-Fidelity Prototypes:** Used a "Wizard of Oz" approach to simulate branching paths before full development.
+- **User Flow Mapping:** Created detailed flowcharts to visualize every interaction for smooth navigation.
+- **Wireframes & UI Mockups:** Designed an intuitive interface including a piano-roll, virtual keyboard, and clear controls.
+
+### Usability Testing & Iteration
+- Conducted informal and formal usability tests to identify pain points and validate designs.
+- **Key Improvements Based on Feedback:**
+  - **Color-coded Branches:** Used distinct colors for branching paths to reduce confusion and enhance exploration (Gestalt principle).
+  - **Mood-based Colors:** Applied color psychology (blue = calm, orange = energetic) to deepen emotional connection.
+  - **Real-time Feedback:** Virtual keyboard turns green for correct notes and red for mistakes, paired with subtle audio cues to support learning and engagement.
+  - **Gamification:** Added score and health bar to motivate users and balance challenge with skill (Flow Theory).
+  - **Audio Layering & Timing:** Enhanced rhythmic guidance with layered sounds and a metronome feature.
+
+### Technical Implementation & Refinement
+- **Modular Code Structure:** Organized code into focused files for easy maintenance and teamwork.
+- **State Machine:** Used clear game states (HOME, PLAYING, GAME_OVER) to manage logic and UI separately.
+- **MIDI Integration:** Leveraged `pygame.midi` for real-time keyboard input and responsive play.
+- **Adaptive Music:** Created 14 musical variations based on a core chord progression to dynamically adapt to user choices.
+
+---
 
 
 
