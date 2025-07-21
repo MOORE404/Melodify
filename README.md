@@ -121,124 +121,25 @@ learning piano.
    - The game ends when your **health bar** is empty.  
    - You can choose to **play again** or **quit**.
 
+## User Scenarios
 
+**Emma** loved to play the piano but never got to a point of being good enough to create her own music.  
+Then she came across **Melodify** software that promised she could play all the songs that she wanted, while the AI made her change the music in ways she wanted. As such, she had to try it out and see what it could offer her — such a promise!
 
+When the music begins, she sees two options which are different in color: **blue** and **yellow**.  
+She wanted to know what kind of impact her decision would have and hence she selected the blue one. She notices this affected the song in a way that made the melody softer and more gentle.
 
-
-
----
-
-## ✨ Key Features
-
-- 🎶 **Branching Song Paths**: Notes split into multiple coloured branches — users choose their musical journey.
-- 🎨 **Mood-based Colour Design**: Blue for calm, orange for energetic — each colour affects the music and emotion.
-- 🎯 **Gamified Feedback System**: Real-time visual cues (green/red keys), scoring, and a health bar.
-- 🎹 **MIDI Instrument Support**: Connect your real keyboard for tactile play.
-- 📈 **Adaptive Learning Curve**: Progressive difficulty keeps learners engaged.
-- 🔊 **Dynamic Audio Layering**: Music evolves as users play — layering backing tracks and melodies.
-
+In the middle of the song, she is also presented with an option to choose between **orange** and **blue**. Out of sheer interest to see what impact orange would have on the song, she selected it.  
+This transformed the song into a more energetic and fast-paced one, and she loved how this altered the story of the song. Therefore, she continued picking the branches which were coloured **red** or **orange**.
 
 ---
 
+A **college student**, **Jonny** wants to use our platform to enhance his **timing and rhythm skills**.  
+He decides to pick the song *“Jingle Bells”*, and it can be seen that there is a **score** and a **health bar**, which resets depending on the player’s timing and accuracy.
 
-## 🚀 How It Works
+The first time he tried it, he was not very good at keeping time and having good accuracy, and he did not even get to the end of the song before he lost. He felt quite annoyed and then had a go at it again to see if he could finish the song.
 
-### 🔁 Game Loop
+After some time, he was able to complete the song. He felt proud but saw a low score in his achievement. This made him continue training to work on his **accuracy** and **timing**.  
+Though the practice sessions were quite fascinating, he had to work hard to get a **perfect score**.
 
-- Read user input via MIDI
-- Display falling notes mapped to real piano keys
-- Detect hits/misses and update score/health
-- Allow real-time branching choices
-
-### 🧩 Technical Modules
-
-- `main.py`: Launches the game and manages logging.
-- `game.py`: Handles game states, MIDI input, rendering.
-- `subScreens.py`: UI screens (pause, home, etc.)
-- `note_data.py`: Loads branching MIDI structures.
-- `player.py`: Manages background audio via `pygame.mixer`.
-- `ui.py`: Renders piano roll, notes, score, progress.
-- `settings.py`: Central config (BPM, health, colours).
-
-![Code Screenshot](PLACEHOLDER_CODE_SNIPPET_IMAGE_URL)
-
----
-
-## 🎧 Music & Audio Design
-
-- Based on *Faded* by Alan Walker (vi–IV–I–V in G Major).
-- 14 adaptive variations composed in **Logic Pro X**.
-- Real-time decisions dynamically shift harmony, rhythm, and timbre.
-- Directional and layered audio enhances immersion.
-
-![Audio Design Diagram](PLACEHOLDER_AUDIO_DIAGRAM_IMAGE_URL)
-
----
-
-## 📖 Example Use Cases
-
-- **Emma**, a hobbyist pianist, uses Melodify to create calming or energetic variations of songs based on her mood.
-- **Jonny**, a student, tracks progress via score/health and gradually improves his timing and accuracy.
-
----
-
-## 🎓 Built With
-
-- **Python 3**
-- **Pygame**
-- **pygame.midi**
-- **Logic Pro X** (for audio composition)
-- UX Principles: HCI, Flow Theory, Aesthetic-Usability, Feedback/Visibility
-
----
-
-## 📽️ Demos
-
-- 🎥 [YouTube Prototype Walkthrough](https://www.youtube.com/playlist?list=PL3NdP9cBhJqxt8QMijgVOG0K6N70bp2YM)
-- 📁 [GitLab Source Code](https://projects.cs.nott.ac.uk/psybg3/musi3071-emotive-musical-decision-tree)
-
----
-
-## 🧠 Future Improvements
-
-- 🧠 ML-based generative music decisions
-- 🧍‍♀️ Collaborative jamming (real-time co-play)
-- 🎤 Support for microphone & voice input
-- 🎵 Expanding to jazz, blues, and user-uploaded tracks
-
----
-
-## 👨‍👩‍👧‍👦 Team Melodify
-
-- Jonathan Moore  
-- Christopher Wainwright  
-- James Bateman  
-- Benjamin Goringe  
-- Cheuk Yin Tze  
-- Amelia Walastyan  
-- Ngoc Nguyen
-
----
-
-## 📎 Appendix
-
-- 🎓 Course: MUSI 3071 – Music & Mixed Reality  
-- 🏫 University of Nottingham  
-- 📅 January 2025  
-
----
-
-## 📷 Image Placeholders (Replace These)
-
-- `PLACEHOLDER_HERO_IMAGE_URL`: Mockup or splash of app
-- `PLACEHOLDER_BRANCHING_NOTES_IMAGE_URL`: Screenshot showing branching notes
-- `PLACEHOLDER_UX_FLOWCHART_IMAGE_URL`: UX or decision tree diagram
-- `PLACEHOLDER_CODE_SNIPPET_IMAGE_URL`: Code demo (e.g., state machine or MIDI input)
-- `PLACEHOLDER_AUDIO_DIAGRAM_IMAGE_URL`: Music layers / Logic Pro X project screenshot
-
----
-
-## 💬 License
-
-MIT License — Feel free to remix and build upon this for your own educational or creative use.
 
