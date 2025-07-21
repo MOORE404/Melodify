@@ -1,5 +1,5 @@
-# 🎵 Melodify — An Emotive Musical Decision Tree
-## 📌 Project Overview
+# Melodify — An Emotive Musical Decision Tree
+## Project Overview
 Melodify is an application designed to enhance midi instrument practice and improvisation through the
 guidance of a midi-based decision tree. The project aims to transform these activities through ‘guided
 improvisation’ where a player is given the opportunity and encouraged to experiment with alternative
@@ -11,7 +11,7 @@ Built using **Python, Pygame, and MIDI**, Melodify supports beginner to intermed
 
 ---
 
-## 🧭 UX Journey
+## UX Journey
 
 Melodify was built around **Human-Computer Interaction (HCI)** and **Flow Theory**. Some UX highlights:
 Melodify is designed to provide users with the most realistic and fun experience to learn piano quickly. That
