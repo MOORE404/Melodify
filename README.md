@@ -143,3 +143,27 @@ After some time, he was able to complete the song. He felt proud but saw a low s
 Though the practice sessions were quite fascinating, he had to work hard to get a **perfect score**.
 
 
+## design process
+Iterative Development and User Feedback: The design process involved group meetings and user feedback. For example, early confusion with branches was addressed by adding colors to represent emotions, which helped users understand the concept better and enhanced their emotional connection with the music. Audio layering was also used to enhance feelings and aid users in timing. 
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><b>Initial Idea and wizard of oz approach</b></td>
+    <td align="center"><b>Frequent team meetings to discuss results from user studies, and new ideas</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Melodify/initialprototype.jpg" width="500" style="object-fit: contain;" />
+    </td>
+    <td>
+      <img src="Melodify/groupphoto.jpg" width="500" style="object-fit: contain;" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+
