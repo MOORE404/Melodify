@@ -200,7 +200,7 @@ Iterative Development and User Feedback: The design process involved group meeti
   </tr>
   <tr>
     <td>
-      <img src="Melodify/prototype 4.png" width="500" style="object-fit: contain;" />
+      <img src="Melodify/prototype 4.png" width="600" style="object-fit: contain;" />
     </td>
     <td>
       <img src="final.gif" width="500" style="object-fit: contain;" />
